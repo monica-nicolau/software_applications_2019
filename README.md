@@ -1,5 +1,5 @@
 # Software applications 2019
-###Team project for the Software Applications exam (Genomics 2019)
+### Team project for the Software Applications exam (Genomics 2019)
 
 The project hereby presented is comprised of a website which allows the visualisation of organized data regarding chromosomes and genes present on them. The construction of the project was made possible thanks to the knowledge gained during the course "Software Applications", academic year 2019/2020.
 
@@ -19,6 +19,7 @@ To run the project, download all the files in a folder labelled `"project"`, ent
 `$ python3 part3.py`
 
 If not previously installed, consider to run the following lines:
+
 `$ pip install pandas`
 
 `$ pip install numpy`
