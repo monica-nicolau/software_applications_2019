@@ -18,7 +18,7 @@ To run the project, download all the files in a folder labelled `"project"`, ent
 
 `$ python3 part3.py`
 
-If not previously installed, consider to run the following lines:
+If not previously installed, consider to install the following packages:
 
 `$ pip install pandas`
 
