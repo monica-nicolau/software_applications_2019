@@ -14,4 +14,9 @@ By entering the website, the user can choose a category of data to be visualized
 If a slightly more detailed idea of the functioning of the website is wanted, the activity diagram (shown in the "Help" page) serves perfectly. Here the control flow lines allow for a clear understanding of the connection between the various steps (namely the activities). As the user enters the website, they will be able to choose what category of the given dataset they would like to visualise, thus leading to two possible scenarios.
 The result can be either the selection of a subcategory, as previously mentioned, or the direct display of the data. If the user is then interested in further data, they will be able to go back and choose another subcategory or return to the homepage to select a completely different category. If the user is in need of help, a separate section is available for them to consult and guide them through the website.
 
-# To run the project, enter the folder labelled "project" from the command prompt and run the python file "part3.py".
+- To run the project, download all the files in a folder labelled "project", enter the folder from the command prompt and run the python file "part3.py". - 
+
+If not previously installed, consider to run the following lines:
+$ pip install pandas
+$ pip install numpy
+$ pip install flask
