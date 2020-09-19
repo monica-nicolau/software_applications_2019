@@ -16,7 +16,9 @@ The result can be either the selection of a subcategory, as previously mentioned
 
 To run the project, download all the files in a folder labelled `"project"`, enter the folder from the command prompt and run the python file "part3.py". 
 
-`$ python3 part3.py`
+```
+$ python3 part3.py
+```
 
 If not previously installed, consider to install the following packages:
 
