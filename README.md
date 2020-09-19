@@ -20,9 +20,9 @@ To run the project, download all the files in a folder labelled `"project"`, ent
 
 If not previously installed, consider to install the following packages:
 
-`$ pip install pandas`
+```$ pip install pandas
 
-`$ pip install numpy`
+$ pip install numpy
 
-`$ pip install flask`
+$ pip install flask```
 
