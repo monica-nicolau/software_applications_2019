@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Associated genes</title>
+</head> 
+<body>
+  <h1>Associated genes</h1>
+  <small>Click here to go back to the <a href="/">homepage</a>.</small>
+  <p>Select a biotype from the list:</p>
+  <form id="form1" action="/login" method="POST" enctype="multipart/form-data">
+    <input type="submit" value="Activate choice">
+    <br>
+    <br>
+    <select id="mySelect" name = "biotype" action="/login" >
+      <option value="Select biotype" SELECTED>Select biotype</option>
+      {% for e in l %}
+      <option value="{{e}}">{{e}}</option>
+      {% endfor %}
+      </select>
+    <input type="submit" value="Submit">
+  </form>
+  <div id="result">
+    {% if choice is defined %}
+      You have selected: <strong style="text-decoration: none; color: green;"> {{choice}} </strong>
+    {% endif %}
+  </div>
+  <p>The genes associated to the selected biotype are available in the <a style="color: blue;" href="results">results</a> page.</p>
+</body>
+</html>
